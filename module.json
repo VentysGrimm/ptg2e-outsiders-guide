@@ -1,0 +1,80 @@
+{
+  "id": "ptg2e-outsiders-guide",
+  "title": "Part-Time Gods 2e: Outsiders Guide",
+  "description": "Source-backed Foundry VTT module for the Part-Time Gods 2e supplemental book, Outsiders Guide.",
+  "version": "0.1.0",
+  "authors": [
+    {
+      "name": "VentysGrimm"
+    }
+  ],
+  "compatibility": {
+    "minimum": "12",
+    "verified": "14"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "part-time-gods",
+        "type": "system"
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/outsiders-guide.mjs"
+  ],
+  "styles": [
+    "styles/outsiders-guide.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "packs": [
+    {
+      "name": "outsiders-guide-rules",
+      "label": "Outsiders Guide Rules",
+      "path": "packs/outsiders-guide-rules",
+      "type": "JournalEntry",
+      "system": "part-time-gods"
+    },
+    {
+      "name": "outsiders-guide-items",
+      "label": "Outsiders Guide Items",
+      "path": "packs/outsiders-guide-items",
+      "type": "Item",
+      "system": "part-time-gods"
+    },
+    {
+      "name": "outsiders-guide-actors",
+      "label": "Outsiders Guide Actors",
+      "path": "packs/outsiders-guide-actors",
+      "type": "Actor",
+      "system": "part-time-gods"
+    },
+    {
+      "name": "outsiders-guide-scenes",
+      "label": "Outsiders Guide Scenes",
+      "path": "packs/outsiders-guide-scenes",
+      "type": "Scene",
+      "system": "part-time-gods"
+    },
+    {
+      "name": "outsiders-guide-tables",
+      "label": "Outsiders Guide Tables",
+      "path": "packs/outsiders-guide-tables",
+      "type": "RollTable",
+      "system": "part-time-gods"
+    },
+    {
+      "name": "outsiders-guide-macros",
+      "label": "Outsiders Guide Macros",
+      "path": "packs/outsiders-guide-macros",
+      "type": "Macro",
+      "system": "part-time-gods"
+    }
+  ]
+}

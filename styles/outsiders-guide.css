@@ -1,0 +1,17 @@
+.ptg2e-outsiders-source-note {
+  border-left: 3px solid #8f5f2f;
+  color: var(--color-text-dark-secondary);
+  font-size: 0.9em;
+  margin: 0.5rem 0;
+  padding: 0.25rem 0 0.25rem 0.5rem;
+}
+
+.ptg2e-outsiders-tag {
+  background: rgba(143, 95, 47, 0.14);
+  border: 1px solid rgba(143, 95, 47, 0.35);
+  border-radius: 4px;
+  display: inline-block;
+  font-size: 0.82em;
+  line-height: 1.3;
+  padding: 0.1rem 0.35rem;
+}

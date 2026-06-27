@@ -1,0 +1,14 @@
+{
+  "PTG2E_OUTSIDERS": {
+    "ModuleTitle": "Part-Time Gods 2e: Outsiders Guide",
+    "Notifications": {
+      "SystemMismatch": "The Outsiders Guide module is designed for the Part-Time Gods 2e system."
+    },
+    "Settings": {
+      "ShowSourceNotes": {
+        "Name": "Show source notes",
+        "Hint": "Display page and book references on Outsiders Guide entries when available."
+      }
+    }
+  }
+}

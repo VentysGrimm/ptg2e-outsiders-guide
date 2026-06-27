@@ -1,0 +1,37 @@
+{
+  "moduleId": "ptg2e-outsiders-guide",
+  "source": "Outsiders Guide",
+  "status": "awaiting-source",
+  "packs": [
+    {
+      "name": "outsiders-guide-rules",
+      "type": "JournalEntry",
+      "purpose": "Readable rules, lore, and player-facing reference journals."
+    },
+    {
+      "name": "outsiders-guide-items",
+      "type": "Item",
+      "purpose": "Gifts, powers, equipment, conditions, and reusable mechanical entries."
+    },
+    {
+      "name": "outsiders-guide-actors",
+      "type": "Actor",
+      "purpose": "NPCs, outsiders, antagonists, allies, and reusable actor templates."
+    },
+    {
+      "name": "outsiders-guide-scenes",
+      "type": "Scene",
+      "purpose": "Maps, locations, and prepared encounter or region scenes."
+    },
+    {
+      "name": "outsiders-guide-tables",
+      "type": "RollTable",
+      "purpose": "Random tables and rollable supplement references."
+    },
+    {
+      "name": "outsiders-guide-macros",
+      "type": "Macro",
+      "purpose": "Optional helper macros for module workflows."
+    }
+  ]
+}

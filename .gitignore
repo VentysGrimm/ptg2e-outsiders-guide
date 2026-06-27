@@ -1,0 +1,23 @@
+# Local source books, extracted text, and work caches
+source-material/*
+!source-material/README.md
+!source-material/.gitkeep
+!source-material/.cache/
+source-material/.cache/*
+!source-material/.cache/.gitkeep
+
+# Release/build output
+dist/
+*.zip
+.release/
+tmp/
+temp/
+
+# Dependencies and tool caches
+node_modules/
+/.cache/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/

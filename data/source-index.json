@@ -1,0 +1,10 @@
+{
+  "title": "Part-Time Gods 2e: Outsiders Guide",
+  "expectedPdf": "source-material/Outsiders_Guide.pdf",
+  "status": "awaiting-source",
+  "pageNumbering": {
+    "sourceOfTruth": "pdf-viewer-page",
+    "notes": "Use the PDF viewer page number when citing or routing source content. Printed page labels can differ from PDF page numbers."
+  },
+  "sections": []
+}
