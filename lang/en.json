@@ -2,6 +2,7 @@
   "PTG2E_OUTSIDERS": {
     "ModuleTitle": "Part-Time Gods 2e: Outsiders Guide",
     "Notifications": {
+      "SeedFailed": "The Outsiders Guide module could not populate its source-backed compendium content.",
       "SystemMismatch": "The Outsiders Guide module is designed for the Part-Time Gods 2e system."
     },
     "Settings": {

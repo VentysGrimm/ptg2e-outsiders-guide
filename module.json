@@ -3,6 +3,13 @@
   "title": "Part-Time Gods 2e: Outsiders Guide",
   "description": "Source-backed Foundry VTT module for the Part-Time Gods 2e supplemental book, Outsiders Guide.",
   "version": "0.1.0",
+  "url": "https://github.com/VentysGrimm/ptg2e-outsiders-guide",
+  "manifest": "https://raw.githubusercontent.com/VentysGrimm/ptg2e-outsiders-guide/main/module.json",
+  "download": "https://github.com/VentysGrimm/ptg2e-outsiders-guide/archive/refs/heads/main.zip",
+  "readme": "https://github.com/VentysGrimm/ptg2e-outsiders-guide/blob/main/README.md",
+  "license": "https://github.com/VentysGrimm/ptg2e-outsiders-guide/blob/main/LICENSE",
+  "changelog": "https://github.com/VentysGrimm/ptg2e-outsiders-guide/blob/main/CHANGELOG.md",
+  "bugs": "https://github.com/VentysGrimm/ptg2e-outsiders-guide/issues",
   "authors": [
     {
       "name": "VentysGrimm"

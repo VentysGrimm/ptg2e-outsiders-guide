@@ -1,37 +1,121 @@
 {
   "moduleId": "ptg2e-outsiders-guide",
   "source": "Outsiders Guide",
-  "status": "awaiting-source",
+  "status": "source-curation-in-progress",
+  "lastSourcePass": "2026-06-27",
+  "generatedData": [
+    "data/outsiders-guide-rules.json",
+    "data/outsiders-guide-items.mjs",
+    "data/outsiders-guide-tables.mjs"
+  ],
   "packs": [
     {
       "name": "outsiders-guide-rules",
       "type": "JournalEntry",
-      "purpose": "Readable rules, lore, and player-facing reference journals."
+      "purpose": "Readable rules, lore, and player-facing reference journals.",
+      "status": "third-slice-character-creation-curated",
+      "documents": [
+        {
+          "id": "rules-life-on-the-outside",
+          "name": "01. Life on the Outside",
+          "sourcePdfPages": "6-18",
+          "dataFile": "data/outsiders-guide-rules.json"
+        },
+        {
+          "id": "rules-many-variations",
+          "name": "02. Many Variations",
+          "sourcePdfPages": "19-42",
+          "dataFile": "data/outsiders-guide-rules.json",
+          "nextStep": "Convert the source-backed stat summaries into Actor documents once the target Part-Time Gods actor schema is verified."
+        },
+        {
+          "id": "rules-birthed-by-the-source-character-creation",
+          "name": "03. Birthed by the Source: Character Creation",
+          "sourcePdfPages": "43-78",
+          "dataFile": "data/outsiders-guide-rules.json",
+          "nextStep": "Curate New Relics from PDF page 79, then Example Outsiders from PDF pages 79-98."
+        }
+      ]
     },
     {
       "name": "outsiders-guide-items",
       "type": "Item",
-      "purpose": "Gifts, powers, equipment, conditions, and reusable mechanical entries."
+      "purpose": "Gifts, powers, equipment, conditions, and reusable mechanical entries.",
+      "status": "character-creation-and-new-relics-curated",
+      "documents": [
+        {
+          "family": "Outsider Kin",
+          "type": "archetype",
+          "sourcePdfPages": "46-70",
+          "dataFile": "data/outsiders-guide-items.mjs"
+        },
+        {
+          "family": "Outsider Outlooks",
+          "type": "occupation",
+          "sourcePdfPages": "72-76",
+          "dataFile": "data/outsiders-guide-items.mjs"
+        },
+        {
+          "family": "Blessings and Curses",
+          "type": "blessing/curse",
+          "sourcePdfPages": "46-78",
+          "dataFile": "data/outsiders-guide-items.mjs"
+        },
+        {
+          "family": "Outsider Rules and Conditions",
+          "type": "power/condition",
+          "sourcePdfPages": "49, 63, 78, 81-82",
+          "dataFile": "data/outsiders-guide-items.mjs"
+        },
+        {
+          "family": "New Relics",
+          "type": "relic",
+          "sourcePdfPages": "79-82",
+          "dataFile": "data/outsiders-guide-items.mjs"
+        }
+      ],
+      "nextStep": "Convert Example Outsiders from PDF pages 83-98 into Actor and linked Vassal documents once the target actor schema is verified."
     },
     {
       "name": "outsiders-guide-actors",
       "type": "Actor",
-      "purpose": "NPCs, outsiders, antagonists, allies, and reusable actor templates."
+      "purpose": "NPCs, outsiders, antagonists, allies, and reusable actor templates.",
+      "status": "awaiting-curation"
     },
     {
       "name": "outsiders-guide-scenes",
       "type": "Scene",
-      "purpose": "Maps, locations, and prepared encounter or region scenes."
+      "purpose": "Maps, locations, and prepared encounter or region scenes.",
+      "status": "awaiting-curation"
     },
     {
       "name": "outsiders-guide-tables",
       "type": "RollTable",
-      "purpose": "Random tables and rollable supplement references."
+      "purpose": "Random tables and rollable supplement references.",
+      "status": "source-backed-tables-curated",
+      "documents": [
+        {
+          "family": "GM Story Tables",
+          "sourcePdfPages": "15-18",
+          "dataFile": "data/outsiders-guide-tables.mjs"
+        },
+        {
+          "family": "Source Reference Tables",
+          "sourcePdfPages": "21-42, 46-82",
+          "dataFile": "data/outsiders-guide-tables.mjs"
+        },
+        {
+          "family": "Rule Check Tables",
+          "sourcePdfPages": "33, 49, 56, 61, 76, 110",
+          "dataFile": "data/outsiders-guide-tables.mjs"
+        }
+      ]
     },
     {
       "name": "outsiders-guide-macros",
       "type": "Macro",
-      "purpose": "Optional helper macros for module workflows."
+      "purpose": "Optional helper macros for module workflows.",
+      "status": "optional"
     }
   ]
 }

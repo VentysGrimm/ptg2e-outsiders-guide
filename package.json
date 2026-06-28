@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "check": "node --check scripts/outsiders-guide.mjs",
+    "check": "node --check scripts/outsiders-guide.mjs && node --check data/outsiders-guide-items.mjs && node --check data/outsiders-guide-tables.mjs",
     "validate": "node tools/validate-package.mjs"
   }
 }

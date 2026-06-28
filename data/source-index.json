@@ -1,10 +1,383 @@
 {
   "title": "Part-Time Gods 2e: Outsiders Guide",
   "expectedPdf": "source-material/Outsiders_Guide.pdf",
-  "status": "awaiting-source",
+  "status": "source-curation-in-progress",
   "pageNumbering": {
     "sourceOfTruth": "pdf-viewer-page",
     "notes": "Use the PDF viewer page number when citing or routing source content. Printed page labels can differ from PDF page numbers."
   },
-  "sections": []
+  "pdf": {
+    "pageCount": 115,
+    "textCache": "source-material/.cache/outsiders-guide-pages.txt",
+    "mappedAt": "2026-06-27"
+  },
+  "sections": [
+    {
+      "id": "front-matter",
+      "title": "Front Matter and Table of Contents",
+      "pdfStart": 1,
+      "pdfEnd": 5,
+      "status": "mapped"
+    },
+    {
+      "id": "life-on-the-outside",
+      "title": "Life on the Outside",
+      "pdfStart": 6,
+      "pdfEnd": 18,
+      "printedStart": 5,
+      "printedEnd": 17,
+      "status": "curated",
+      "pack": "outsiders-guide-rules",
+      "documentId": "rules-life-on-the-outside",
+      "children": [
+        {
+          "id": "chapter-one-opener",
+          "title": "Chapter One Opener",
+          "pdfStart": 6,
+          "pdfEnd": 7
+        },
+        {
+          "id": "whos-the-boss",
+          "title": "Who's the Boss?",
+          "pdfStart": 7,
+          "pdfEnd": 7
+        },
+        {
+          "id": "the-propaganda",
+          "title": "The Propaganda",
+          "pdfStart": 8,
+          "pdfEnd": 8
+        },
+        {
+          "id": "magnificent-and-monstrous",
+          "title": "Magnificent and Monstrous",
+          "pdfStart": 8,
+          "pdfEnd": 8
+        },
+        {
+          "id": "outsiders-among-us",
+          "title": "Outsiders Among Us",
+          "pdfStart": 8,
+          "pdfEnd": 8
+        },
+        {
+          "id": "external-internal-motivations",
+          "title": "External and Internal Motivations",
+          "pdfStart": 9,
+          "pdfEnd": 9
+        },
+        {
+          "id": "logistics-of-ordinary-lives",
+          "title": "Logistics of Ordinary Lives",
+          "pdfStart": 10,
+          "pdfEnd": 12
+        },
+        {
+          "id": "methods-of-mingling",
+          "title": "Methods of Mingling",
+          "pdfStart": 11,
+          "pdfEnd": 12
+        },
+        {
+          "id": "on-the-sidelines",
+          "title": "On the Sidelines",
+          "pdfStart": 12,
+          "pdfEnd": 12
+        },
+        {
+          "id": "communities",
+          "title": "Communities",
+          "pdfStart": 13,
+          "pdfEnd": 14
+        },
+        {
+          "id": "where-in-the-world",
+          "title": "Where in the World...",
+          "pdfStart": 14,
+          "pdfEnd": 15
+        },
+        {
+          "id": "outsiders-at-war",
+          "title": "Outsiders at War",
+          "pdfStart": 15,
+          "pdfEnd": 17
+        },
+        {
+          "id": "outsiders-at-peace",
+          "title": "Outsiders at Peace",
+          "pdfStart": 17,
+          "pdfEnd": 18
+        }
+      ]
+    },
+    {
+      "id": "many-variations",
+      "title": "Many Variations",
+      "pdfStart": 19,
+      "pdfEnd": 42,
+      "printedStart": 18,
+      "printedEnd": 41,
+      "status": "curated",
+      "pack": "outsiders-guide-rules",
+      "documentId": "rules-many-variations",
+      "children": [
+        {
+          "id": "ahuitzotl",
+          "title": "Ahuitzotl",
+          "pdfStart": 21,
+          "pdfEnd": 21
+        },
+        {
+          "id": "basilisk",
+          "title": "Basilisk",
+          "pdfStart": 21,
+          "pdfEnd": 22
+        },
+        {
+          "id": "black-eyed-children",
+          "title": "Black-Eyed Children",
+          "pdfStart": 22,
+          "pdfEnd": 23
+        },
+        {
+          "id": "camazotz-variation",
+          "title": "Camazotz",
+          "pdfStart": 23,
+          "pdfEnd": 24
+        },
+        {
+          "id": "catoblepas",
+          "title": "Catoblepas",
+          "pdfStart": 24,
+          "pdfEnd": 24
+        },
+        {
+          "id": "centaurs-variation",
+          "title": "Centaurs",
+          "pdfStart": 26,
+          "pdfEnd": 26
+        },
+        {
+          "id": "defilers",
+          "title": "Defilers",
+          "pdfStart": 26,
+          "pdfEnd": 27
+        },
+        {
+          "id": "dryads-variation",
+          "title": "Dryads",
+          "pdfStart": 27,
+          "pdfEnd": 28
+        },
+        {
+          "id": "encantado-variation",
+          "title": "Encantado",
+          "pdfStart": 28,
+          "pdfEnd": 29
+        },
+        {
+          "id": "flesh-eating-tree",
+          "title": "Flesh-Eating Tree",
+          "pdfStart": 29,
+          "pdfEnd": 30
+        },
+        {
+          "id": "gargoyles",
+          "title": "Gargoyles",
+          "pdfStart": 31,
+          "pdfEnd": 32
+        },
+        {
+          "id": "headless-horsemen",
+          "title": "Headless Horsemen",
+          "pdfStart": 32,
+          "pdfEnd": 33
+        },
+        {
+          "id": "kitsune-variation",
+          "title": "Kitsune",
+          "pdfStart": 33,
+          "pdfEnd": 33
+        },
+        {
+          "id": "manticores",
+          "title": "Manticores",
+          "pdfStart": 34,
+          "pdfEnd": 34
+        },
+        {
+          "id": "mongolian-deathworm",
+          "title": "Mongolian Deathworm",
+          "pdfStart": 35,
+          "pdfEnd": 35
+        },
+        {
+          "id": "nunnehi-variation",
+          "title": "Nunnehi",
+          "pdfStart": 36,
+          "pdfEnd": 36
+        },
+        {
+          "id": "pegasus",
+          "title": "Pegasus",
+          "pdfStart": 37,
+          "pdfEnd": 37
+        },
+        {
+          "id": "perytons",
+          "title": "Perytons",
+          "pdfStart": 38,
+          "pdfEnd": 38
+        },
+        {
+          "id": "sphinx",
+          "title": "Sphinx",
+          "pdfStart": 38,
+          "pdfEnd": 39
+        },
+        {
+          "id": "thunderbird",
+          "title": "Thunderbird",
+          "pdfStart": 40,
+          "pdfEnd": 40
+        },
+        {
+          "id": "trolls-variation",
+          "title": "Trolls",
+          "pdfStart": 40,
+          "pdfEnd": 41
+        },
+        {
+          "id": "weavers-variation",
+          "title": "Weavers",
+          "pdfStart": 41,
+          "pdfEnd": 42
+        },
+        {
+          "id": "wyverns",
+          "title": "Wyverns",
+          "pdfStart": 42,
+          "pdfEnd": 42
+        }
+      ]
+    },
+    {
+      "id": "birthed-by-the-source",
+      "title": "Birthed by the Source",
+      "pdfStart": 43,
+      "pdfEnd": 98,
+      "printedStart": 42,
+      "printedEnd": 97,
+      "status": "in-progress",
+      "pack": "outsiders-guide-rules",
+      "documentId": "rules-birthed-by-the-source-character-creation",
+      "children": [
+        {
+          "id": "step-one-kin-and-powers",
+          "title": "Step One: Kin and Powers",
+          "pdfStart": 45,
+          "pdfEnd": 70,
+          "status": "curated",
+          "pack": "outsiders-guide-rules",
+          "documentId": "rules-birthed-by-the-source-character-creation"
+        },
+        {
+          "id": "step-two-archetype",
+          "title": "Step Two: Archetype",
+          "pdfStart": 72,
+          "pdfEnd": 72,
+          "status": "curated",
+          "pack": "outsiders-guide-rules",
+          "documentId": "rules-birthed-by-the-source-character-creation"
+        },
+        {
+          "id": "step-three-occupation-outlook",
+          "title": "Step Three: Occupation/Outlook",
+          "pdfStart": 72,
+          "pdfEnd": 76,
+          "status": "curated",
+          "pack": "outsiders-guide-rules",
+          "documentId": "rules-birthed-by-the-source-character-creation"
+        },
+        {
+          "id": "step-four-attachments",
+          "title": "Step Four: Attachments",
+          "pdfStart": 77,
+          "pdfEnd": 77,
+          "status": "curated",
+          "pack": "outsiders-guide-rules",
+          "documentId": "rules-birthed-by-the-source-character-creation"
+        },
+        {
+          "id": "step-five-finishing-touches",
+          "title": "Step Five: Finishing Touches",
+          "pdfStart": 78,
+          "pdfEnd": 78,
+          "status": "curated",
+          "pack": "outsiders-guide-rules",
+          "documentId": "rules-birthed-by-the-source-character-creation"
+        },
+        {
+          "id": "new-relics",
+          "title": "New Relics",
+          "pdfStart": 79,
+          "pdfEnd": 82,
+          "status": "curated",
+          "pack": "outsiders-guide-items",
+          "dataFile": "data/outsiders-guide-items.mjs"
+        },
+        {
+          "id": "example-outsiders",
+          "title": "Example Outsiders",
+          "pdfStart": 83,
+          "pdfEnd": 98,
+          "status": "mapped-from-toc"
+        }
+      ]
+    },
+    {
+      "id": "breaking-the-divine-seal",
+      "title": "Story: Breaking the Divine Seal",
+      "pdfStart": 99,
+      "pdfEnd": 107,
+      "printedStart": 98,
+      "printedEnd": 106,
+      "status": "mapped-from-toc"
+    },
+    {
+      "id": "appendix",
+      "title": "Appendix",
+      "pdfStart": 108,
+      "pdfEnd": 115,
+      "printedStart": 107,
+      "printedEnd": 114,
+      "status": "mapped-from-toc",
+      "children": [
+        {
+          "id": "winters-calling",
+          "title": "Winter's Calling (Theology)",
+          "pdfStart": 109,
+          "pdfEnd": 110
+        },
+        {
+          "id": "michael-holloway",
+          "title": "Michael Holloway, god of Competitors",
+          "pdfStart": 111,
+          "pdfEnd": 112
+        },
+        {
+          "id": "outsider-character-sheet",
+          "title": "Outsider Character Sheet",
+          "pdfStart": 113,
+          "pdfEnd": 114
+        },
+        {
+          "id": "index",
+          "title": "Index",
+          "pdfStart": 115,
+          "pdfEnd": 115
+        }
+      ]
+    }
+  ]
 }
